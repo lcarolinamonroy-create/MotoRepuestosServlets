@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS motorepuestos;
+USE motorepuestos;
+
+CREATE TABLE IF NOT EXISTS productos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(150) NOT NULL,
+    categoria VARCHAR(100) NOT NULL,
+    precio DECIMAL(12,2) NOT NULL,
+    stock INT NOT NULL DEFAULT 0
+);

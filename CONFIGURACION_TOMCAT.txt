@@ -1,0 +1,4 @@
+Servidor utilizado: Apache Tomcat 10.1
+Puerto de ejecución: 8080
+URL de acceso:
+http://localhost:8080/moto-repuestos-servlets/productos
